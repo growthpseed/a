@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>login page</title>
+        <%-include('common/head.ejs') %>
+        <%-include('common/header.ejs') %>
+
+    </head>
+    <body>
+        <form action="/login" method="post">
+            ID : <input type="text"> <br>
+            PW : <input type="password"> <br>
+            <input type="submit" value="로그인">
+        </form>
+        
+        <br>
+        <br>
+
+       <button><a href="/">메인 페이지</a></button><br>
+        <button><a href="/register">회원가입</a></button>
+    </body>
+</html>
